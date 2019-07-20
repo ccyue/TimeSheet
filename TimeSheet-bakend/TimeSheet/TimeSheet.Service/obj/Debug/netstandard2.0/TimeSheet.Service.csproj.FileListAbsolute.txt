@@ -1,0 +1,8 @@
+C:\GitHub\TimeSheet\TimeSheet\TimeSheet.Service\bin\Debug\netstandard2.0\TimeSheet.Service.deps.json
+C:\GitHub\TimeSheet\TimeSheet\TimeSheet.Service\bin\Debug\netstandard2.0\TimeSheet.Service.dll
+C:\GitHub\TimeSheet\TimeSheet\TimeSheet.Service\obj\Debug\netstandard2.0\TimeSheet.Service.csproj.CoreCompileInputs.cache
+C:\GitHub\TimeSheet\TimeSheet\TimeSheet.Service\obj\Debug\netstandard2.0\TimeSheet.Service.AssemblyInfoInputs.cache
+C:\GitHub\TimeSheet\TimeSheet\TimeSheet.Service\obj\Debug\netstandard2.0\TimeSheet.Service.AssemblyInfo.cs
+C:\GitHub\TimeSheet\TimeSheet\TimeSheet.Service\bin\Debug\netstandard2.0\TimeSheet.Service.pdb
+C:\GitHub\TimeSheet\TimeSheet\TimeSheet.Service\obj\Debug\netstandard2.0\TimeSheet.Service.dll
+C:\GitHub\TimeSheet\TimeSheet\TimeSheet.Service\obj\Debug\netstandard2.0\TimeSheet.Service.pdb

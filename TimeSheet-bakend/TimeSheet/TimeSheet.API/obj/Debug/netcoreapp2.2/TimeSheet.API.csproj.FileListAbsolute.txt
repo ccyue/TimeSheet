@@ -1,0 +1,17 @@
+C:\GitHub\TimeSheet\TimeSheet\TimeSheet.API\bin\Debug\netcoreapp2.2\TimeSheet.Service.dll
+C:\GitHub\TimeSheet\TimeSheet\TimeSheet.API\obj\Debug\netcoreapp2.2\TimeSheet.API.csprojAssemblyReference.cache
+C:\GitHub\TimeSheet\TimeSheet\TimeSheet.API\obj\Debug\netcoreapp2.2\TimeSheet.API.csproj.CoreCompileInputs.cache
+C:\GitHub\TimeSheet\TimeSheet\TimeSheet.API\obj\Debug\netcoreapp2.2\TimeSheet.API.RazorAssemblyInfo.cache
+C:\GitHub\TimeSheet\TimeSheet\TimeSheet.API\obj\Debug\netcoreapp2.2\TimeSheet.API.RazorAssemblyInfo.cs
+C:\GitHub\TimeSheet\TimeSheet\TimeSheet.API\obj\Debug\netcoreapp2.2\TimeSheet.API.AssemblyInfoInputs.cache
+C:\GitHub\TimeSheet\TimeSheet\TimeSheet.API\obj\Debug\netcoreapp2.2\TimeSheet.API.AssemblyInfo.cs
+C:\GitHub\TimeSheet\TimeSheet\TimeSheet.API\obj\Debug\netcoreapp2.2\TimeSheet.API.RazorTargetAssemblyInfo.cache
+C:\GitHub\TimeSheet\TimeSheet\TimeSheet.API\bin\Debug\netcoreapp2.2\TimeSheet.API.deps.json
+C:\GitHub\TimeSheet\TimeSheet\TimeSheet.API\bin\Debug\netcoreapp2.2\TimeSheet.API.runtimeconfig.json
+C:\GitHub\TimeSheet\TimeSheet\TimeSheet.API\bin\Debug\netcoreapp2.2\TimeSheet.API.runtimeconfig.dev.json
+C:\GitHub\TimeSheet\TimeSheet\TimeSheet.API\bin\Debug\netcoreapp2.2\TimeSheet.API.dll
+C:\GitHub\TimeSheet\TimeSheet\TimeSheet.API\bin\Debug\netcoreapp2.2\TimeSheet.API.pdb
+C:\GitHub\TimeSheet\TimeSheet\TimeSheet.API\bin\Debug\netcoreapp2.2\TimeSheet.Service.pdb
+C:\GitHub\TimeSheet\TimeSheet\TimeSheet.API\obj\Debug\netcoreapp2.2\TimeSheet.API.csproj.CopyComplete
+C:\GitHub\TimeSheet\TimeSheet\TimeSheet.API\obj\Debug\netcoreapp2.2\TimeSheet.API.dll
+C:\GitHub\TimeSheet\TimeSheet\TimeSheet.API\obj\Debug\netcoreapp2.2\TimeSheet.API.pdb

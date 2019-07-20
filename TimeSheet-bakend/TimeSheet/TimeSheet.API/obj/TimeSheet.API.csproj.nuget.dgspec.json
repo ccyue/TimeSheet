@@ -1,0 +1,131 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\GitHub\\TimeSheet\\TimeSheet\\TimeSheet.API\\TimeSheet.API.csproj": {}
+  },
+  "projects": {
+    "C:\\GitHub\\TimeSheet\\TimeSheet\\TimeSheet.API\\TimeSheet.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\GitHub\\TimeSheet\\TimeSheet\\TimeSheet.API\\TimeSheet.API.csproj",
+        "projectName": "TimeSheet.API",
+        "projectPath": "C:\\GitHub\\TimeSheet\\TimeSheet\\TimeSheet.API\\TimeSheet.API.csproj",
+        "packagesPath": "C:\\Users\\chengcheng.yue\\.nuget\\packages\\",
+        "outputPath": "C:\\GitHub\\TimeSheet\\TimeSheet\\TimeSheet.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\chengcheng.yue\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\GitHub\\TimeSheet\\TimeSheet\\TimeSheet.Service\\TimeSheet.Service.csproj": {
+                "projectPath": "C:\\GitHub\\TimeSheet\\TimeSheet\\TimeSheet.Service\\TimeSheet.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\GitHub\\TimeSheet\\TimeSheet\\TimeSheet.Service\\TimeSheet.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\GitHub\\TimeSheet\\TimeSheet\\TimeSheet.Service\\TimeSheet.Service.csproj",
+        "projectName": "TimeSheet.Service",
+        "projectPath": "C:\\GitHub\\TimeSheet\\TimeSheet\\TimeSheet.Service\\TimeSheet.Service.csproj",
+        "packagesPath": "C:\\Users\\chengcheng.yue\\.nuget\\packages\\",
+        "outputPath": "C:\\GitHub\\TimeSheet\\TimeSheet\\TimeSheet.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\chengcheng.yue\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "MySql.Data.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.16, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

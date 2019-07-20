@@ -1,0 +1,9 @@
+C:\GitHub\TimeSheet\TimeSheet\TimeSheet.DTO\bin\Debug\netstandard2.0\TimeSheet.DTO.deps.json
+C:\GitHub\TimeSheet\TimeSheet\TimeSheet.DTO\bin\Debug\netstandard2.0\TimeSheet.DTO.dll
+C:\GitHub\TimeSheet\TimeSheet\TimeSheet.DTO\bin\Debug\netstandard2.0\TimeSheet.DTO.pdb
+C:\GitHub\TimeSheet\TimeSheet\TimeSheet.DTO\obj\Debug\netstandard2.0\TimeSheet.DTO.csproj.CoreCompileInputs.cache
+C:\GitHub\TimeSheet\TimeSheet\TimeSheet.DTO\obj\Debug\netstandard2.0\TimeSheet.DTO.AssemblyInfoInputs.cache
+C:\GitHub\TimeSheet\TimeSheet\TimeSheet.DTO\obj\Debug\netstandard2.0\TimeSheet.DTO.AssemblyInfo.cs
+C:\GitHub\TimeSheet\TimeSheet\TimeSheet.DTO\obj\Debug\netstandard2.0\TimeSheet.DTO.dll
+C:\GitHub\TimeSheet\TimeSheet\TimeSheet.DTO\obj\Debug\netstandard2.0\TimeSheet.DTO.pdb
+C:\GitHub\TimeSheet\TimeSheet\TimeSheet.DTO\obj\Debug\netstandard2.0\TimeSheet.DTO.csprojAssemblyReference.cache
