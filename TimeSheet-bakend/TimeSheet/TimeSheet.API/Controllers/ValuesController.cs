@@ -19,123 +19,123 @@ namespace TimeSheet.API.Controllers
         {
 
             #region create data
-            //using (TSDbContext context = new TSDbContext())
-            //{
-            //    context.Database.EnsureCreated();
-            //    context.Users.AddRange(
-            //        new Service.Entities.User()
-            //        {
-            //            ChiName = "岳程程",
-            //            EngName = "Yue ChengCheng",
-            //            EId = "chengcheng.yue",
-            //            Email = "chengcheng.yue@accenture.com",
-            //            CreatedBy = "admin",
-            //            PassWordSalt = "salt",
-            //            PassWordHash = "hash",
-            //            PhoneNum = "01234"
-            //        },
-            //    new Service.Entities.User()
-            //    {
-            //        ChiName = "赵越",
-            //        EngName = "Zhao Yue",
-            //        EId = "yue.c.zhao",
-            //        Email = "yue.c.zhao@accenture.com",
-            //        CreatedBy = "admin",
-            //        PassWordSalt = "salt",
-            //        PassWordHash = "hash",
-            //        PhoneNum = "01234"
-            //    },
-            //    new Service.Entities.User()
-            //    {
-            //        ChiName = "李平平",
-            //        EngName = "Li PingPing",
-            //        EId = "pingping.b.li",
-            //        Email = "pingping.b.li@accenture.com",
-            //        CreatedBy = "admin",
-            //        PassWordSalt = "salt",
-            //        PassWordHash = "hash",
-            //        PhoneNum = "01234"
-            //    },
-            //    new Service.Entities.User()
-            //    {
-            //        ChiName = "韩卓君",
-            //        EngName = "Han ZhuoJun",
-            //        EId = "zhuojun.han",
-            //        Email = "zhuojun.han@accenture.com",
-            //        CreatedBy = "admin",
-            //        PassWordSalt = "salt",
-            //        PassWordHash = "hash",
-            //        PhoneNum = "01234"
-            //    },
-            //    new Service.Entities.User()
-            //    {
-            //        ChiName = "王玉莹",
-            //        EngName = "Echo",
-            //        EId = "yuying.c.wang",
-            //        Email = "yuying.c.wang@accenture.com",
-            //        CreatedBy = "admin",
-            //        PassWordSalt = "salt",
-            //        PassWordHash = "hash",
-            //        PhoneNum = "01234"
-            //    },
-            //    new Service.Entities.User()
-            //    {
-            //        ChiName = "张琪",
-            //        EngName = "Caitlyn",
-            //        EId = "qi.h.zhang",
-            //        Email = "qi.h.zhang@accenture.com",
-            //        CreatedBy = "admin",
-            //        PassWordSalt = "salt",
-            //        PassWordHash = "hash",
-            //        PhoneNum = "01234"
-            //    },
-            //    new Service.Entities.User()
-            //    {
-            //        ChiName = "李坚",
-            //        EngName = "Nut",
-            //        EId = "jian.f.li",
-            //        Email = "jian.f.li@accenture.com",
-            //        CreatedBy = "admin",
-            //        PassWordSalt = "salt",
-            //        PassWordHash = "hash",
-            //        PhoneNum = "01234"
-            //    },
-            //    new Service.Entities.User()
-            //    {
-            //        ChiName = "孙岩",
-            //        EngName = "Winnie",
-            //        EId = "y.g.sun",
-            //        Email = "y.g.sun@accenture.com",
-            //        CreatedBy = "admin",
-            //        PassWordSalt = "salt",
-            //        PassWordHash = "hash",
-            //        PhoneNum = "01234"
-            //    },
-            //    new Service.Entities.User()
-            //    {
-            //        ChiName = "王尧",
-            //        EngName = "Emily",
-            //        EId = "yao.i.wang",
-            //        Email = "yao.i.wang@accenture.com",
-            //        CreatedBy = "admin",
-            //        PassWordSalt = "salt",
-            //        PassWordHash = "hash",
-            //        PhoneNum = "01234"
-            //    },
-            //    new Service.Entities.User()
-            //    {
-            //        ChiName = "刘欣",
-            //        EngName = "CIndy",
-            //        EId = "xin.q.liu",
-            //        Email = "xin.q.liu@accenture.com",
-            //        CreatedBy = "admin",
-            //        PassWordSalt = "salt",
-            //        PassWordHash = "hash",
-            //        PhoneNum = "01234"
-            //    }
-            //        );
-            //    context.SaveChanges();
-            //} 
+            using (TSDbContext context = new TSDbContext())
+            {
+                context.Database.EnsureCreated();
+                context.Users.AddRange(
+                    new Service.Entities.User()
+                    {
+                        ChiName = "岳程程",
+                        EngName = "Yue ChengCheng",
+                        EId = "chengcheng.yue",
+                        Email = "chengcheng.yue@accenture.com",
+                        CreatedBy = "admin",
+                        PassWordSalt = "salt",
+                        PassWordHash = "hash",
+                        PhoneNum = "01234"
+                    },
+                new Service.Entities.User()
+                {
+                    ChiName = "赵越",
+                    EngName = "Zhao Yue",
+                    EId = "yue.c.zhao",
+                    Email = "yue.c.zhao@accenture.com",
+                    CreatedBy = "admin",
+                    PassWordSalt = "salt",
+                    PassWordHash = "hash",
+                    PhoneNum = "01234"
+                },
+                new Service.Entities.User()
+                {
+                    ChiName = "李平平",
+                    EngName = "Li PingPing",
+                    EId = "pingping.b.li",
+                    Email = "pingping.b.li@accenture.com",
+                    CreatedBy = "admin",
+                    PassWordSalt = "salt",
+                    PassWordHash = "hash",
+                    PhoneNum = "01234"
+                },
+                new Service.Entities.User()
+                {
+                    ChiName = "韩卓君",
+                    EngName = "Han ZhuoJun",
+                    EId = "zhuojun.han",
+                    Email = "zhuojun.han@accenture.com",
+                    CreatedBy = "admin",
+                    PassWordSalt = "salt",
+                    PassWordHash = "hash",
+                    PhoneNum = "01234"
+                },
+                new Service.Entities.User()
+                {
+                    ChiName = "王玉莹",
+                    EngName = "Echo",
+                    EId = "yuying.c.wang",
+                    Email = "yuying.c.wang@accenture.com",
+                    CreatedBy = "admin",
+                    PassWordSalt = "salt",
+                    PassWordHash = "hash",
+                    PhoneNum = "01234"
+                },
+                new Service.Entities.User()
+                {
+                    ChiName = "张琪",
+                    EngName = "Caitlyn",
+                    EId = "qi.h.zhang",
+                    Email = "qi.h.zhang@accenture.com",
+                    CreatedBy = "admin",
+                    PassWordSalt = "salt",
+                    PassWordHash = "hash",
+                    PhoneNum = "01234"
+                },
+                new Service.Entities.User()
+                {
+                    ChiName = "李坚",
+                    EngName = "Nut",
+                    EId = "jian.f.li",
+                    Email = "jian.f.li@accenture.com",
+                    CreatedBy = "admin",
+                    PassWordSalt = "salt",
+                    PassWordHash = "hash",
+                    PhoneNum = "01234"
+                },
+                new Service.Entities.User()
+                {
+                    ChiName = "孙岩",
+                    EngName = "Winnie",
+                    EId = "y.g.sun",
+                    Email = "y.g.sun@accenture.com",
+                    CreatedBy = "admin",
+                    PassWordSalt = "salt",
+                    PassWordHash = "hash",
+                    PhoneNum = "01234"
+                },
+                new Service.Entities.User()
+                {
+                    ChiName = "王尧",
+                    EngName = "Emily",
+                    EId = "yao.i.wang",
+                    Email = "yao.i.wang@accenture.com",
+                    CreatedBy = "admin",
+                    PassWordSalt = "salt",
+                    PassWordHash = "hash",
+                    PhoneNum = "01234"
+                },
+                new Service.Entities.User()
+                {
+                    ChiName = "刘欣",
+                    EngName = "CIndy",
+                    EId = "xin.q.liu",
+                    Email = "xin.q.liu@accenture.com",
+                    CreatedBy = "admin",
+                    PassWordSalt = "salt",
+                    PassWordHash = "hash",
+                    PhoneNum = "01234"
+                }
+                    );
+                context.SaveChanges();
+            }
             #endregion
             List<User> users = new List<User>();
             using (TSDbContext context =new TSDbContext())

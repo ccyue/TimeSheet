@@ -9,6 +9,7 @@ namespace TimeSheet.Service.Entities
         public string EId { get; set; }
         public string ChiName { get; set; }
         public string EngName { get; set; }
+        public int Gender { get; set; }
         public string PassWordSalt { get; set; }
         public string PassWordHash { get; set; }
         public string Email { get; set; }

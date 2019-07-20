@@ -6,3 +6,12 @@ C:\GitHub\TimeSheet\TimeSheet\TimeSheet.Service\obj\Debug\netstandard2.0\TimeShe
 C:\GitHub\TimeSheet\TimeSheet\TimeSheet.Service\bin\Debug\netstandard2.0\TimeSheet.Service.pdb
 C:\GitHub\TimeSheet\TimeSheet\TimeSheet.Service\obj\Debug\netstandard2.0\TimeSheet.Service.dll
 C:\GitHub\TimeSheet\TimeSheet\TimeSheet.Service\obj\Debug\netstandard2.0\TimeSheet.Service.pdb
+E:\GitHub\TimeSheet\TimeSheet-bakend\TimeSheet\TimeSheet.Service\bin\Debug\netstandard2.0\TimeSheet.Service.deps.json
+E:\GitHub\TimeSheet\TimeSheet-bakend\TimeSheet\TimeSheet.Service\bin\Debug\netstandard2.0\TimeSheet.Service.dll
+E:\GitHub\TimeSheet\TimeSheet-bakend\TimeSheet\TimeSheet.Service\bin\Debug\netstandard2.0\TimeSheet.Service.pdb
+E:\GitHub\TimeSheet\TimeSheet-bakend\TimeSheet\TimeSheet.Service\obj\Debug\netstandard2.0\TimeSheet.Service.csprojAssemblyReference.cache
+E:\GitHub\TimeSheet\TimeSheet-bakend\TimeSheet\TimeSheet.Service\obj\Debug\netstandard2.0\TimeSheet.Service.csproj.CoreCompileInputs.cache
+E:\GitHub\TimeSheet\TimeSheet-bakend\TimeSheet\TimeSheet.Service\obj\Debug\netstandard2.0\TimeSheet.Service.AssemblyInfoInputs.cache
+E:\GitHub\TimeSheet\TimeSheet-bakend\TimeSheet\TimeSheet.Service\obj\Debug\netstandard2.0\TimeSheet.Service.AssemblyInfo.cs
+E:\GitHub\TimeSheet\TimeSheet-bakend\TimeSheet\TimeSheet.Service\obj\Debug\netstandard2.0\TimeSheet.Service.dll
+E:\GitHub\TimeSheet\TimeSheet-bakend\TimeSheet\TimeSheet.Service\obj\Debug\netstandard2.0\TimeSheet.Service.pdb

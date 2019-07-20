@@ -27,10 +27,14 @@ namespace TimeSheet.Service
             modelBuilder.ApplyConfiguration(new SysDictConfig());
             modelBuilder.ApplyConfiguration(new SysDictTypeConfig());
             modelBuilder.ApplyConfiguration(new SysSettingConfig());
+            modelBuilder.ApplyConfiguration(new RoleConfig());
+            modelBuilder.ApplyConfiguration(new UserRoleRelationConfig());
 
         }
 
         public DbSet<User> Users { get; set; }
+        public DbSet<Role> Roles { get; set; }
+        public DbSet<UserRoleRelation> UserRoleRelation { get; set; }
         public DbSet<Project> Projects { get; set; }
         public DbSet<Project> SysDicts { get; set; }
         public DbSet<SysSetting> SysDictTypes { get; set; }

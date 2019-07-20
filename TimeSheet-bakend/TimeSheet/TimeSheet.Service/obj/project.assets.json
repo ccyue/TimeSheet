@@ -3030,23 +3030,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\chengcheng.yue\\.nuget\\packages\\": {},
+    "C:\\Users\\cheng\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\GitHub\\TimeSheet\\TimeSheet\\TimeSheet.Service\\TimeSheet.Service.csproj",
+      "projectUniqueName": "E:\\GitHub\\TimeSheet\\TimeSheet-bakend\\TimeSheet\\TimeSheet.Service\\TimeSheet.Service.csproj",
       "projectName": "TimeSheet.Service",
-      "projectPath": "C:\\GitHub\\TimeSheet\\TimeSheet\\TimeSheet.Service\\TimeSheet.Service.csproj",
-      "packagesPath": "C:\\Users\\chengcheng.yue\\.nuget\\packages\\",
-      "outputPath": "C:\\GitHub\\TimeSheet\\TimeSheet\\TimeSheet.Service\\obj\\",
+      "projectPath": "E:\\GitHub\\TimeSheet\\TimeSheet-bakend\\TimeSheet\\TimeSheet.Service\\TimeSheet.Service.csproj",
+      "packagesPath": "C:\\Users\\cheng\\.nuget\\packages\\",
+      "outputPath": "E:\\GitHub\\TimeSheet\\TimeSheet-bakend\\TimeSheet\\TimeSheet.Service\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\chengcheng.yue\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\cheng\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3054,7 +3054,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://www.nuget.org/api/v2/": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netstandard2.0": {
