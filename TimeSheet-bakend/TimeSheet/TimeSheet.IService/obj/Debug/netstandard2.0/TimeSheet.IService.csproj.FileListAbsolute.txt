@@ -16,3 +16,15 @@ E:\GitHub\TimeSheet\TimeSheet-bakend\TimeSheet\TimeSheet.IService\obj\Debug\nets
 E:\GitHub\TimeSheet\TimeSheet-bakend\TimeSheet\TimeSheet.IService\obj\Debug\netstandard2.0\TimeSheet.IService.AssemblyInfo.cs
 E:\GitHub\TimeSheet\TimeSheet-bakend\TimeSheet\TimeSheet.IService\obj\Debug\netstandard2.0\TimeSheet.IService.dll
 E:\GitHub\TimeSheet\TimeSheet-bakend\TimeSheet\TimeSheet.IService\obj\Debug\netstandard2.0\TimeSheet.IService.pdb
+C:\GitHub\TimeSheet\TimeSheet-bakend\TimeSheet\TimeSheet.IService\bin\Debug\netstandard2.0\TimeSheet.IService.deps.json
+C:\GitHub\TimeSheet\TimeSheet-bakend\TimeSheet\TimeSheet.IService\bin\Debug\netstandard2.0\TimeSheet.IService.dll
+C:\GitHub\TimeSheet\TimeSheet-bakend\TimeSheet\TimeSheet.IService\bin\Debug\netstandard2.0\TimeSheet.IService.pdb
+C:\GitHub\TimeSheet\TimeSheet-bakend\TimeSheet\TimeSheet.IService\obj\Debug\netstandard2.0\TimeSheet.IService.csprojAssemblyReference.cache
+C:\GitHub\TimeSheet\TimeSheet-bakend\TimeSheet\TimeSheet.IService\obj\Debug\netstandard2.0\TimeSheet.IService.csproj.CoreCompileInputs.cache
+C:\GitHub\TimeSheet\TimeSheet-bakend\TimeSheet\TimeSheet.IService\obj\Debug\netstandard2.0\TimeSheet.IService.AssemblyInfoInputs.cache
+C:\GitHub\TimeSheet\TimeSheet-bakend\TimeSheet\TimeSheet.IService\obj\Debug\netstandard2.0\TimeSheet.IService.AssemblyInfo.cs
+C:\GitHub\TimeSheet\TimeSheet-bakend\TimeSheet\TimeSheet.IService\obj\Debug\netstandard2.0\TimeSheet.IService.dll
+C:\GitHub\TimeSheet\TimeSheet-bakend\TimeSheet\TimeSheet.IService\obj\Debug\netstandard2.0\TimeSheet.IService.pdb
+C:\GitHub\TimeSheet\TimeSheet-bakend\TimeSheet\TimeSheet.IService\bin\Debug\netstandard2.0\TimeSheet.DTO.dll
+C:\GitHub\TimeSheet\TimeSheet-bakend\TimeSheet\TimeSheet.IService\bin\Debug\netstandard2.0\TimeSheet.DTO.pdb
+C:\GitHub\TimeSheet\TimeSheet-bakend\TimeSheet\TimeSheet.IService\obj\Debug\netstandard2.0\TimeSheet.IService.csproj.CopyComplete

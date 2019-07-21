@@ -1,6 +1,6 @@
 <template>
   <div class="user-detail">
-    <form method="put" action="https://localhost:44359/api/values/" enctype="multipart/form-data">
+    <form method="put" action="api/users/" enctype="multipart/form-data">
       <table>
         <tr>
           <td>eid</td>
@@ -44,9 +44,11 @@ export default {
   },
   created() {
     const id = this.$route.params.id;
-    this.$axios.get("https://localhost:44359/api/values/"+id).then(data => {
-      this.user=data;
-      console.log(data);
+    this.$axios.get("api/users/"+id).then(response => {
+      if(response.status=="ok")
+      {
+        this.user=response.data;
+      }
     });
 
     console.log(id);
@@ -54,8 +56,11 @@ export default {
   methods:{
     submit:function(){
       console.log(this.user);
-      this.$axios.put("https://localhost:44359/api/values/"+this.user.id,this.user).then((response)=>{
-        console.log(response);
+      this.$axios.put("api/users/"+this.user.id,this.user).then((response)=>{
+        if(response.status=="ok")
+        {
+            this.$router.replace({ path: "/user/list/"});
+        }
       });
     }
   }

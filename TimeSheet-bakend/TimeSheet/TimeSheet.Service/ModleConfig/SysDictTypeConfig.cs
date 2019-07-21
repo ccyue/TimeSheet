@@ -14,6 +14,7 @@ namespace TimeSheet.Service.ModleConfig
             builder.ToTable("sys-dict-type");
             builder.Property(p => p.Code).IsRequired().HasMaxLength(50);
             builder.Property(p => p.Name).IsRequired().HasMaxLength(100);
+            builder.Property(p => p.IsDeleted).HasColumnType("bit(1)");
         }
     }
 }

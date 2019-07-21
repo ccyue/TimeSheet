@@ -1,7 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Threading.Tasks;
+using Autofac;
+using Autofac.Extensions.DependencyInjection;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -11,6 +14,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using TimeSheet.IService;
 using TimeSheet.Service;
 
 namespace TimeSheet.API
@@ -25,10 +29,26 @@ namespace TimeSheet.API
         public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
-        public void ConfigureServices(IServiceCollection services)
+        public IServiceProvider ConfigureServices(IServiceCollection services)
         {
+            services.AddDbContext<TSDbContext>(p => {
+                p.UseMySQL("Server=127.0.0.1;database=timesheet;uid=root;pwd=P@ssw0rd;charset='utf8';SslMode=None;");
+            });
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
             services.AddCors();
+            //autofac
+
+            var containerBuilder = new ContainerBuilder();
+            containerBuilder.Populate(services);
+
+            Assembly[] assemblies = new Assembly[] { Assembly.Load("TimeSheet.Service") };
+            containerBuilder.RegisterAssemblyTypes(assemblies)
+                .Where(type => !type.IsAbstract
+                    && typeof(IServiceSupport).IsAssignableFrom(type))
+                    .AsImplementedInterfaces().PropertiesAutowired();
+
+            var container = containerBuilder.Build();
+            return new AutofacServiceProvider(container);
             //services.AddDbContext<TSDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
         }
 

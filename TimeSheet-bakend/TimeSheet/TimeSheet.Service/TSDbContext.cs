@@ -17,7 +17,7 @@ namespace TimeSheet.Service
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder);
-            optionsBuilder.UseMySQL("Server=127.0.0.1;database=timesheet;uid=root;pwd=P@ssw0rd;charset='utf8';SslMode=None");
+            optionsBuilder.UseMySQL("Server=127.0.0.1;database=timesheet;uid=root;pwd=P@ssw0rd;charset='utf8';SslMode=None;");
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

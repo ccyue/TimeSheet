@@ -9,7 +9,7 @@ namespace TimeSheet.Service.Entities
     {
         [Key]
         public long Id { get; set; }
-        public int IsDeleted { get; set; } = 0;
+        public bool IsDeleted { get; set; }
         public string CreatedBy { get; set; }
         public DateTime CreatedDate { get; set; } = DateTime.Now;
         public string LastUpdatedBy { get; set; }

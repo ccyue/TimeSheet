@@ -14,6 +14,7 @@ namespace TimeSheet.Service.ModleConfig
             builder.ToTable("sys-setting");
             builder.Property(p => p.Name).IsRequired().HasMaxLength(100);
             builder.Property(p => p.Value).IsRequired().HasMaxLength(1000);
+            builder.Property(p => p.IsDeleted).HasColumnType("bit(1)");
         }
     }
 }

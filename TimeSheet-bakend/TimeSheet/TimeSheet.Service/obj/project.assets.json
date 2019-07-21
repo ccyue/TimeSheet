@@ -744,6 +744,39 @@
         "compile": {
           "ref/netstandard1.3/System.Threading.Tasks.dll": {}
         }
+      },
+      "TimeSheet.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/TimeSheet.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TimeSheet.Common.dll": {}
+        }
+      },
+      "TimeSheet.DTO/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/TimeSheet.DTO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TimeSheet.DTO.dll": {}
+        }
+      },
+      "TimeSheet.IService/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "TimeSheet.DTO": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TimeSheet.IService.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TimeSheet.IService.dll": {}
+        }
       }
     }
   },
@@ -3021,32 +3054,49 @@
         "system.threading.tasks.4.3.0.nupkg.sha512",
         "system.threading.tasks.nuspec"
       ]
+    },
+    "TimeSheet.Common/1.0.0": {
+      "type": "project",
+      "path": "../TimeSheet.Common/TimeSheet.Common.csproj",
+      "msbuildProject": "../TimeSheet.Common/TimeSheet.Common.csproj"
+    },
+    "TimeSheet.DTO/1.0.0": {
+      "type": "project",
+      "path": "../TimeSheet.DTO/TimeSheet.DTO.csproj",
+      "msbuildProject": "../TimeSheet.DTO/TimeSheet.DTO.csproj"
+    },
+    "TimeSheet.IService/1.0.0": {
+      "type": "project",
+      "path": "../TimeSheet.IService/TimeSheet.IService.csproj",
+      "msbuildProject": "../TimeSheet.IService/TimeSheet.IService.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "MySql.Data.EntityFrameworkCore >= 8.0.16",
-      "NETStandard.Library >= 2.0.3"
+      "NETStandard.Library >= 2.0.3",
+      "TimeSheet.Common >= 1.0.0",
+      "TimeSheet.IService >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\cheng\\.nuget\\packages\\": {},
+    "C:\\Users\\chengcheng.yue\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\GitHub\\TimeSheet\\TimeSheet-bakend\\TimeSheet\\TimeSheet.Service\\TimeSheet.Service.csproj",
+      "projectUniqueName": "C:\\GitHub\\TimeSheet\\TimeSheet-bakend\\TimeSheet\\TimeSheet.Service\\TimeSheet.Service.csproj",
       "projectName": "TimeSheet.Service",
-      "projectPath": "E:\\GitHub\\TimeSheet\\TimeSheet-bakend\\TimeSheet\\TimeSheet.Service\\TimeSheet.Service.csproj",
-      "packagesPath": "C:\\Users\\cheng\\.nuget\\packages\\",
-      "outputPath": "E:\\GitHub\\TimeSheet\\TimeSheet-bakend\\TimeSheet\\TimeSheet.Service\\obj\\",
+      "projectPath": "C:\\GitHub\\TimeSheet\\TimeSheet-bakend\\TimeSheet\\TimeSheet.Service\\TimeSheet.Service.csproj",
+      "packagesPath": "C:\\Users\\chengcheng.yue\\.nuget\\packages\\",
+      "outputPath": "C:\\GitHub\\TimeSheet\\TimeSheet-bakend\\TimeSheet\\TimeSheet.Service\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\cheng\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\chengcheng.yue\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3054,11 +3104,18 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://www.nuget.org/api/v2/": {}
       },
       "frameworks": {
         "netstandard2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\GitHub\\TimeSheet\\TimeSheet-bakend\\TimeSheet\\TimeSheet.Common\\TimeSheet.Common.csproj": {
+              "projectPath": "C:\\GitHub\\TimeSheet\\TimeSheet-bakend\\TimeSheet\\TimeSheet.Common\\TimeSheet.Common.csproj"
+            },
+            "C:\\GitHub\\TimeSheet\\TimeSheet-bakend\\TimeSheet\\TimeSheet.IService\\TimeSheet.IService.csproj": {
+              "projectPath": "C:\\GitHub\\TimeSheet\\TimeSheet-bakend\\TimeSheet\\TimeSheet.IService\\TimeSheet.IService.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

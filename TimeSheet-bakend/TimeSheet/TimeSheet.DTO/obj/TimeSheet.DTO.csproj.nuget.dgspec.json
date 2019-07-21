@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\GitHub\\TimeSheet\\TimeSheet-bakend\\TimeSheet\\TimeSheet.DTO\\TimeSheet.DTO.csproj": {}
+    "C:\\GitHub\\TimeSheet\\TimeSheet-bakend\\TimeSheet\\TimeSheet.DTO\\TimeSheet.DTO.csproj": {}
   },
   "projects": {
-    "E:\\GitHub\\TimeSheet\\TimeSheet-bakend\\TimeSheet\\TimeSheet.DTO\\TimeSheet.DTO.csproj": {
+    "C:\\GitHub\\TimeSheet\\TimeSheet-bakend\\TimeSheet\\TimeSheet.DTO\\TimeSheet.DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\GitHub\\TimeSheet\\TimeSheet-bakend\\TimeSheet\\TimeSheet.DTO\\TimeSheet.DTO.csproj",
+        "projectUniqueName": "C:\\GitHub\\TimeSheet\\TimeSheet-bakend\\TimeSheet\\TimeSheet.DTO\\TimeSheet.DTO.csproj",
         "projectName": "TimeSheet.DTO",
-        "projectPath": "E:\\GitHub\\TimeSheet\\TimeSheet-bakend\\TimeSheet\\TimeSheet.DTO\\TimeSheet.DTO.csproj",
-        "packagesPath": "C:\\Users\\cheng\\.nuget\\packages\\",
-        "outputPath": "E:\\GitHub\\TimeSheet\\TimeSheet-bakend\\TimeSheet\\TimeSheet.DTO\\obj\\",
+        "projectPath": "C:\\GitHub\\TimeSheet\\TimeSheet-bakend\\TimeSheet\\TimeSheet.DTO\\TimeSheet.DTO.csproj",
+        "packagesPath": "C:\\Users\\chengcheng.yue\\.nuget\\packages\\",
+        "outputPath": "C:\\GitHub\\TimeSheet\\TimeSheet-bakend\\TimeSheet\\TimeSheet.DTO\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\cheng\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\chengcheng.yue\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,7 +25,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://www.nuget.org/api/v2/": {}
         },
         "frameworks": {
           "netstandard2.0": {

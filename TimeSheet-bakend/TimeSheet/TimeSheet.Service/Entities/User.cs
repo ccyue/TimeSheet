@@ -9,11 +9,14 @@ namespace TimeSheet.Service.Entities
         public string EId { get; set; }
         public string ChiName { get; set; }
         public string EngName { get; set; }
-        public int Gender { get; set; }
+        public bool Gender { get; set; }
+        public DateTime BornDate { get; set; }
         public string PassWordSalt { get; set; }
         public string PassWordHash { get; set; }
+        public string EmployeeNo { get; set; }
         public string Email { get; set; }
         public string PhoneNum { get; set; }
+        public int Status { get;set; }
         public int LoginErrorTimes { get; set; } = 0;
         public DateTime? LastFailedAttemptDateTime { get; set; }
         public DateTime? LastLogOnDateTime { get; set; }

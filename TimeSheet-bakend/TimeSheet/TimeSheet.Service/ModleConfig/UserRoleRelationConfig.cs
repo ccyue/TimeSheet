@@ -14,6 +14,7 @@ namespace TimeSheet.Service.ModleConfig
             builder.ToTable("user-role-relation");
             builder.HasOne(p => p.Role).WithMany().HasForeignKey(p => p.RoleId).IsRequired();
             builder.HasOne(p => p.User).WithMany().HasForeignKey(p => p.UserId).IsRequired();
+            builder.Property(p => p.IsDeleted).HasColumnType("bit(1)");
         }
     }
 }

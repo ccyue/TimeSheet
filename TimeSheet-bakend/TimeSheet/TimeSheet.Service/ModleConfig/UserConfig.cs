@@ -15,10 +15,13 @@ namespace TimeSheet.Service.ModleConfig
             builder.Property(p => p.EId).IsRequired().HasMaxLength(50);
             builder.Property(p => p.ChiName).IsRequired().HasMaxLength(50);
             builder.Property(p => p.EngName).IsRequired().HasMaxLength(50);
+            builder.Property(p => p.Gender).HasColumnType("bit(1)");
+            builder.Property(p => p.EmployeeNo).HasMaxLength(20);
             builder.Property(p => p.PassWordHash).IsRequired().HasMaxLength(200);
             builder.Property(p => p.PassWordSalt).IsRequired().HasMaxLength(50);
             builder.Property(p => p.Email).IsRequired().HasMaxLength(50);
             builder.Property(p => p.PhoneNum).IsRequired().HasMaxLength(20).IsUnicode(false);
+            builder.Property(p => p.IsDeleted).HasColumnType("bit(1)");
         }
     }
 }

@@ -1,6 +1,6 @@
 <template>
   <div class="user-detail">
-    <form method="post" action="https://localhost:44359/api/values/" enctype="multipart/form-data">
+    <form method="post" action="api/users/" enctype="multipart/form-data">
       <table>
         <tr>
           <td>eid</td>
@@ -40,23 +40,13 @@ export default {
   data() {
     return {
       user:{
-          "id":'0',
           "eId":'',
           "chiName": '',
           "engName":'',
           "passWordSalt":'123',
           "passWordHash":'123',
           "email":'',
-          "phoneNum":'',
-          "loginErrorTimes":0,
-          "lastFailedAttemptDateTime":null,
-          "lastLogOnDateTime":null,
-          "lastPasswordUpdateDateTime":null,
-          "isDeleted":'0',
-          "createdBy":'admin',
-          "createdDate":'2019-07-20 19:00:00',
-          "lastUpdatedBy":'',
-          "lastUpdatedDate":'2019-07-20 19:00:00'
+          "phoneNum":''
       }
     };
   },
@@ -66,8 +56,11 @@ export default {
   methods:{
     submit:function(){
       console.log(this.user);
-      this.$axios.post("https://localhost:44359/api/values/",this.user).then((response)=>{
-        console.log(response);
+      this.$axios.post("api/users/",this.user).then((response)=>{
+        if(response.status=="ok")
+        {
+            this.$router.replace({ path: "/user/list/"});
+        }
       });
     }
   }

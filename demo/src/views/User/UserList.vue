@@ -24,7 +24,7 @@
           
           <td>{{user.email}}</td>
           <td>{{user.phoneNum}}</td>
-          <td>{{user.isDeleted === 0 ? "正常" : "禁用"}}</td>
+          <td>{{user.status === 0 ? "正常" : "禁用"}}</td>
           <td> <input type="button" value="Edit" @click="linkToDetail(user.id)"/>&nbsp;<input type="button" value="Delete" @click="deleteUser(user.id)"/> </td>
         </tr>
       </tbody>
@@ -39,9 +39,12 @@ export default {
     };
   },
   created() {
-    this.$axios.get("https://localhost:44359/api/values").then(data => {
-      this.list = data;
-      console.log(this.list);
+    this.$axios.get("/api/users").then(response => {
+      console.log(response);
+      if(response.status = "ok")
+      {
+        this.list = response.data;
+      }
     });
     // this.list = [
     //   {
@@ -78,9 +81,9 @@ export default {
     linkToDetail(id) {
       this.$router.replace({ path: "/user/detail/" + id });
     },
-    deleteUser(id){
-        this.$axios.delete("https://localhost:44359/api/values/"+id).then(data => {
-        console.log(data);
+    deleteUser(id,index){
+        this.$axios.delete("/api/users/"+id).then(data => {
+        this.list.splice(index+1,1);
       });
     },
     addUser()

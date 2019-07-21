@@ -1,0 +1,9 @@
+C:\GitHub\TimeSheet\TimeSheet-bakend\TimeSheet\TimeSheet.Common\bin\Debug\netstandard2.0\TimeSheet.Common.deps.json
+C:\GitHub\TimeSheet\TimeSheet-bakend\TimeSheet\TimeSheet.Common\bin\Debug\netstandard2.0\TimeSheet.Common.dll
+C:\GitHub\TimeSheet\TimeSheet-bakend\TimeSheet\TimeSheet.Common\bin\Debug\netstandard2.0\TimeSheet.Common.pdb
+C:\GitHub\TimeSheet\TimeSheet-bakend\TimeSheet\TimeSheet.Common\obj\Debug\netstandard2.0\TimeSheet.Common.csproj.CoreCompileInputs.cache
+C:\GitHub\TimeSheet\TimeSheet-bakend\TimeSheet\TimeSheet.Common\obj\Debug\netstandard2.0\TimeSheet.Common.AssemblyInfoInputs.cache
+C:\GitHub\TimeSheet\TimeSheet-bakend\TimeSheet\TimeSheet.Common\obj\Debug\netstandard2.0\TimeSheet.Common.AssemblyInfo.cs
+C:\GitHub\TimeSheet\TimeSheet-bakend\TimeSheet\TimeSheet.Common\obj\Debug\netstandard2.0\TimeSheet.Common.dll
+C:\GitHub\TimeSheet\TimeSheet-bakend\TimeSheet\TimeSheet.Common\obj\Debug\netstandard2.0\TimeSheet.Common.pdb
+C:\GitHub\TimeSheet\TimeSheet-bakend\TimeSheet\TimeSheet.Common\obj\Debug\netstandard2.0\TimeSheet.Common.csprojAssemblyReference.cache

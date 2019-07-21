@@ -16,6 +16,7 @@ namespace TimeSheet.Service.ModleConfig
             builder.Property(p => p.Description).HasMaxLength(1000);
             builder.Property(p => p.Remark).IsRequired().HasMaxLength(1000);
             builder.Property(p => p.Owner).IsRequired();
+            builder.Property(p => p.IsDeleted).HasColumnType("bit(1)");
         }
     }
 }
