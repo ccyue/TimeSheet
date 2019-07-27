@@ -11,20 +11,19 @@ using TimeSheet.IService;
 using TimeSheet.Service;
 using TimeSheet.Service.Entities;
 
-namespace TimeSheet.API.Controllers
+namespace TimeSheet.API.Controllers.v2
 {
-    [Route("api/[controller]")]
-    [ApiController]
+    //[Route("api/v2/[controller]")]
+    //[ApiController]
     public class UsersController : ControllerBase
     {
 
         //public IUserService userService { get; set; }
 
-        private readonly TSDbContext _TSDbContext;
+
         private readonly IUserService _userService;
-        public UsersController(TSDbContext TSDbContext, IUserService userService)
+        public UsersController(IUserService userService)
         {
-            _TSDbContext = TSDbContext;
             _userService = userService;
         }
         // GET api/users
@@ -190,7 +189,7 @@ namespace TimeSheet.API.Controllers
             //return users;
             #endregion
 
-            var users = _userService.GetAll();
+            var users = _userService.GetAll().Take(5);
             return new ResponseResult()
             {
                 Status = "ok",

@@ -34,7 +34,8 @@ namespace TimeSheet.API
             services.AddDbContext<TSDbContext>(p => {
                 p.UseMySQL("Server=127.0.0.1;database=timesheet;uid=root;pwd=P@ssw0rd;charset='utf8';SslMode=None;");
             });
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            services.AddMvc(opts=> { opts.Conventions.Insert(0, new NameSpaceVersionRoutingConvertion()); })
+                .SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
             services.AddCors();
             //autofac
 

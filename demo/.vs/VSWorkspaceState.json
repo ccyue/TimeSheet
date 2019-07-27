@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\components",
+    "\\src\\plugins",
+    "\\src\\views",
+    "\\src\\views\\Home",
+    "\\src\\views\\User"
+  ],
+  "SelectedNode": "\\src\\views\\User\\UserAdd.vue",
+  "PreviewInSolutionExplorer": false
+}
